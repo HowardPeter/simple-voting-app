@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i 's/bg-gradient-to-t/bg-linear-to-t/' src/app/page.tsx)",
+      "Bash(npm run *)",
+      "Read(//home/vscode/.cache/**)",
+      "Bash(npx --no-install playwright --version)",
+      "Bash(curl -s -o /dev/null localhost:3100/)",
+      "Bash(:)",
+      "Bash(python3 -)",
+      "Bash(grep -c 3000 devcheck.mjs)",
+      "Bash(sed -i 's|localhost:3100|localhost:3000|' devcheck.mjs)",
+      "Bash(grep -n \"const base\" devcheck.mjs)",
+      "Bash(export DATABASE_URL='postgres://postgres:postgres@localhost:51214/template1?sslmode=disable')",
+      "Bash(node -e ' *)",
+      "Bash(xargs -r kill)",
+      "Bash(curl -s -m 2 localhost:4000)",
+      "Bash(curl -s -m 2 localhost:3000)"
+    ]
+  }
+}
